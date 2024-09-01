@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* Ensures text size is not automatically adjusted */
+  text-size-adjust: 100%; /* Standard property */
+  -webkit-text-size-adjust: 100%; /* Legacy support for older WebKit browsers */
 }
 
 .App-logo {
@@ -22,6 +25,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* Ensures text size is not automatically adjusted */
+  text-size-adjust: 100%; /* Standard property */
+  -webkit-text-size-adjust: 100%; /* Legacy support for older WebKit browsers */
 }
 
 .App-link {
